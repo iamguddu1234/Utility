@@ -1,0 +1,117 @@
+.mainData {
+  margin-top: 6px;
+  margin-bottom: 6px;
+  display: flex;
+  width: 100%;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: transparent;
+  border: none;
+}
+
+.nu {
+  width: 10%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  color: var(--greyTextColor);
+  font-size: 16px;
+  padding-left: 10px;
+
+}
+
+.date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 20%;
+  color: var(--greyTextColor);
+  font-size: 16px;
+}
+.inTime {
+  width: 20%;
+  color: var(--greyTextColor);
+  font-size: 16px;
+}
+
+.outTime {
+  width: 20%;
+  color: var(--greyTextColor);
+  font-size: 16px;
+}
+
+.absent {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--greyTextColor);
+  font-size: 16px;
+}
+
+.present {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--greyTextColor);
+  font-size: 16px;
+}
+
+.a_text {
+  width: 30px;
+  height: 30px;
+  min-height: 30px;
+  min-width: 30px;
+  border-radius: 50%;
+  background-color: var(--redColor1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit{
+  width: 10%;
+  display: flex;
+  justify-self: end;
+  align-items: center;
+}
+
+.edit:hover{
+ 
+  cursor: pointer;
+  color: var(--themeColor);
+  border-radius: 50%;
+}
+
+
+@media(max-width:1300px){
+  .mainData{
+    font-size: 12px;
+  }
+
+
+  .nu{
+    font-size: 12px;
+  }
+  .date{
+    font-size: 12px;
+  }
+
+  .inTime{
+    font-size: 12px;
+  }
+
+  .outTime{
+    font-size: 12px;
+  }
+
+  .absent{
+    font-size: 12px;
+  }
+
+
+}

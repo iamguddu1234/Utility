@@ -1,0 +1,245 @@
+
+
+.parentbox {
+  width: 100%;
+  height: auto;
+  background-color: var(--bodyBkgColor);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.subParentContainer {
+  width: 80%;
+  background-color: white;
+  margin-bottom: 40px;
+}
+
+.mainContainer {
+  margin: 20px;
+  background-color: white;
+  margin-bottom: 40px;
+  width: 60%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  row-gap: 10px;
+  column-gap: 10px;
+  border-style: none;
+}
+
+.leftsideContainer {
+  margin: 10px;
+}
+
+.detailsContainer {
+  display: flex;
+  align-items: center;
+}
+
+.profilePic {
+  width: 50px;
+  height: 50px;
+  background-color: aquamarine;
+  border-radius: 10px;
+}
+
+.userName {
+  margin-left: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.rightsideContainer {
+  margin: 10px;
+}
+
+.block1 {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+
+.totalPresent {
+  color: var(--greyTextColor);
+}
+
+.totalPresentDays {
+  margin-left: 10px;
+
+  color: var(--greenColor1);
+  font-weight: bold;
+}
+
+.block2 {
+  margin-top: 6px;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+
+.totalAbsent {
+  color: var(--greyTextColor);
+}
+
+.totalAbsentDays {
+  margin-left: 10px;
+
+  font-weight: bold;
+  color: var(--redColor1);
+}
+
+.block3 {
+  margin-top: 6px;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+
+.total {
+  color: var(--greyTextColor);
+}
+
+.totalDays {
+  margin-left: 10px;
+  font-weight: bold;
+  color: var(--greyTextColor);
+}
+
+.mainData {
+  margin-top: 20px;
+  display: flex;
+  width: 60%;
+  height: 35px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--cardBorderColorLight);
+  border-radius: 10px;
+  border: 1px solid var(--cardBorderColorLight);
+}
+
+.nu {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--greyTextColor);
+  font-weight: bolder;
+  font-size: 16px;
+}
+
+.date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 20%;
+  color: var(--greyTextColor);
+  font-weight: bold;
+  font-size: 16px;
+}
+.inTime {
+  width: 20%;
+  color: var(--greyTextColor);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.outTime {
+  width: 20%;
+  color: var(--greyTextColor);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.absent {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--greyTextColor);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.present {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--greyTextColor);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.parentDetailsBox {
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 60%;
+  border: 1px solid var(--cardBorderColorLight);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.allDetailsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.monthName {
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.addNewEntry {
+  background-color: #207ef5;
+  color: white;
+  border: none;
+  height: 25px;
+  border-radius: 4px;
+}
+
+.addNewEntry:hover {
+  background-color: white;
+  color: #207ef5;
+  border: 1px solid var(--themeColor);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+@media (max-width: 1300px) {
+
+  .parentbox{
+    width: 100%;
+    margin: 0;
+  }
+  .subParentContainer {
+    width: 100%;
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .mainContainer {
+    width: 100%;
+    margin: 0;
+
+  }
+
+  .userName{
+    font-size: 14px;
+  }
+
+  .parentDetailsBox {
+    width: 100%;
+    font-size: 13px;
+
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .rightsideContainer{
+    font-size: 13px;
+  }
+}

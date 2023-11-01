@@ -1,0 +1,87 @@
+.allDetailsContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.monthName {
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.addNewEntry {
+  background-color: #207ef5;
+  color: white;
+  border: none;
+  height: 25px;
+  border-radius: 4px;
+  position: relative;
+}
+
+.addNewEntry:hover {
+  background-color: white;
+  color: #207ef5;
+  border: 1px solid var(--themeColor);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.formContainer {
+  width: 16%;
+  height: 330px;
+  position: absolute;
+  background-color: white;
+  top: 210px;
+  left: 45%;
+  border: 1px solid var(--cardBorderColor);
+  border-radius: 4%;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.emailContainer {
+  width: auto;
+}
+
+.textEmail {
+  margin-top: 10px;
+  color: var(--lightText);
+}
+
+.emailEditBox {
+  width: 97%;
+  background-color: white;
+  border-radius: 8px;
+  height: 28px;
+  padding-left: 10px;
+  font-size: 14px;
+  border: 1px solid var(--cardBorderColorLight);
+}
+
+.emailEditBox:focus {
+  border-style: solid;
+  background-color: white;
+  border-width: 1px;
+  outline: none !important;
+  border-color: var(--themeColor);
+}
+
+.btnTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  height: 30px;
+  width: 200px;
+}
+
+@media (max-width: 1300px) {
+  .allDetailsContainer {
+    font-size: 14px;
+  }
+
+  .formContainer {
+    width: 50%;
+  }
+}
